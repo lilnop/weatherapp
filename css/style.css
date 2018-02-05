@@ -1,0 +1,62 @@
+h1{
+  font-size:100px;
+  font-weight:bold;
+}
+body{
+  font-family:lobster;
+  color:white;
+  text-align:center;
+  background-color:#214c91;
+  font-size:40px;
+}
+button{
+  background-color:#008CBA;
+  font-size:45px;
+  color:white;
+  font-family:lobster;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#weaIcon{
+  width:200px;
+  height:200px;
+}
+#footer{
+  margin-top:50px;
+  -webkit-transition:  2s; /* For Safari 3.1 to 6.0 */
+    transition: 2s;
+  
+}
+.fa{
+  padding: 15px;
+  border-radius: 50%;
+
+}
+.fa:hover {
+    width:50px;
+    height:50px;
+    
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-free-code-camp{
+  background: green;
+  color: white;
+}
+.fa-github{
+  background: black;
+  color: white;
+}
+.fa-code{  
+  background: black;
+  color: white;
+}
