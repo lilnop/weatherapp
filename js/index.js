@@ -1,3 +1,4 @@
+alert("Please allow location access in browser.This app might not work on phones if location is turned off.);
 if (navigator.geolocation) {
 navigator.geolocation.getCurrentPosition(function(position) {
 let lon = position.coords.longitude;
